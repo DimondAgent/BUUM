@@ -14,10 +14,9 @@ def main():
     s = float(input())
     e = float(input())
 
-    a = Manager(s, e)
+    a = Manager(s , e)
     print(a.salary(10))
     print(a.tax(10))
-    
 
 if __name__ == '__main__':
     main()
