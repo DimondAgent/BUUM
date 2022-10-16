@@ -17,6 +17,7 @@ def main():
     a = Manager(s , e)
     print(a.salary(10))
     print(a.tax(10))
+    
 
 if __name__ == '__main__':
     main()
